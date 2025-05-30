@@ -1,8 +1,12 @@
 <h3 align="center">🔧 Fonctionnalités incluses : Génération de numéros aléatoires Pour les opérateurs : 
 Free, Bouygues, SFR Possibilité de choisir le nombre de numéros (jusqu’à 100) Export automatique en .txt Génération d’un QR Code des numéros Modification du format
+
+  
 ➕ /add33 : Ajoute +33 aux numéros (ex : 0601020304 → +33601020304) ➖ /remove33 : Supprime +33 pour revenir au format 06/07. 
 
-Analyse 🕵️ /verif : Vérifie si les numéros sont au bon format 🏷 /detect : Détecte automatiquement l’opérateur du numéro Interface Telegram
+
+
+Analyse 🕵️ /verif : Vérifie si les numéros sont au bon format 🏷 /detect : Détecte automatiquement l’opérateur du numéro
 
 💼 Modules utilisées : python-telegram-bot (v20.7) pour l’interface Telegram qrcode pour générer un QR Code contenant les numéros regex pour la validation des formats io pour générer et envoyer des fichiers</h3>
 
